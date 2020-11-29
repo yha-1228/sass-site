@@ -16,6 +16,6 @@ npx gulp sass:watch
 
 npm run start
 
-# export
+# Export
 
 npm run export
