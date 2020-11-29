@@ -1,6 +1,6 @@
 # Download the repo
 
-git clone https://github.com/styled-components/styled-components-website
+git clone https://github.com/yha-1228/site-sass
 
 # Install the dependencies
 
