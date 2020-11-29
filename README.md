@@ -8,4 +8,14 @@ npm install
 
 # Start local development
 
-npm run dev
+## Sass
+
+npx gulp sass:watch
+
+## JavaScript
+
+npm run start
+
+# export
+
+npm run export
