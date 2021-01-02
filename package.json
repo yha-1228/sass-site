@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "lint:style": "npx stylelint 'src/**/*.{css,less,sass,scss}'",
+    "lint:style:fix": "npx stylelint --fix 'src/**/*.{css,less,sass,scss}'",
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "export": "npm run build && cp -r public/ build/"
@@ -13,6 +15,11 @@
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.1.0",
     "postcss": "^8.1.10",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
     "webpack": "^5.9.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
