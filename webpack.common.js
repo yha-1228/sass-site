@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   devServer: { contentBase: 'public', publicPath: '/js/', open: true },
@@ -11,9 +11,14 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: [{ loader: 'babel-loader', options: { presets: ['@babel/preset-env'] } }],
+        use: [
+          {
+            loader: 'babel-loader',
+            options: { presets: ['@babel/preset-env'] },
+          },
+        ],
       },
     ],
   },
   target: ['web', 'es5'],
-}
+};
