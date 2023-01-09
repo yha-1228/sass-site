@@ -2,6 +2,7 @@
   "scripts": {
     "lint:style": "npx stylelint 'src/**/*.{css,less,sass,scss}'",
     "lint:style:fix": "npx stylelint --fix 'src/**/*.{css,less,sass,scss}'",
+    "format": "prettier --write .",
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "export": "npm run build && cp -r public/ build/"
@@ -15,6 +16,7 @@
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.1.0",
     "postcss": "^8.1.10",
+    "prettier": "^2.8.2",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-prettier-scss": "0.0.1",
