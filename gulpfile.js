@@ -4,7 +4,7 @@ const SASS_PATH = './src/sass/**/*.scss';
 const CSS_PATH = './public/css/';
 
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 

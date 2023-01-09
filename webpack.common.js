@@ -1,7 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  devServer: { contentBase: 'public', publicPath: '/js/', open: true },
+  devServer: {
+    static: {
+      directory: 'public',
+    },
+    devMiddleware: {
+      publicPath: '/js/',
+    },
+    open: true,
+  },
+
   entry: './src/js/index.js',
   output: {
     path: path.join(__dirname, 'public/js/'),
