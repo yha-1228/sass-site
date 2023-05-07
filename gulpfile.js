@@ -1,7 +1,5 @@
 'use strict';
 
-/* eslint-disable no-undef */
-
 const SASS_PATH = './src/sass/**/*.scss';
 const CSS_PATH = './public/css/';
 

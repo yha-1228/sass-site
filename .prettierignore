@@ -2,3 +2,4 @@
 *.min.css
 *.bundle.js
 *.md
+public/
