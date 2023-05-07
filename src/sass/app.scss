@@ -1,0 +1,15 @@
+:root {
+  --app-color-primary: blue;
+}
+
+.text-primary {
+  color: var(--app-color-primary);
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
